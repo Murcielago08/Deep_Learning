@@ -1,0 +1,11 @@
+numpy<3,>=1.26
+pandas>=2.1
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy>=1.11
+jupyterlab>=4.1
+ipykernel>=6.29
+tqdm>=4.66
+torch>=2.2
+torchvision>=0.17
+keras>=3.0

@@ -1,0 +1,6 @@
+pyproject.toml
+deep_learning_ynov_j2.egg-info/PKG-INFO
+deep_learning_ynov_j2.egg-info/SOURCES.txt
+deep_learning_ynov_j2.egg-info/dependency_links.txt
+deep_learning_ynov_j2.egg-info/requires.txt
+deep_learning_ynov_j2.egg-info/top_level.txt

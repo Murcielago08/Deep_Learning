@@ -1,0 +1,30 @@
+[project]
+name = "deep-learning-ynov-j2"
+version = "2026.10"
+description = "Dépendances du TP2 (journée 2) du module Deep Learning, Ynov Bordeaux"
+requires-python = ">=3.11,<3.13"
+# Installation depuis ce dossier : pip install -e .   (ou : uv sync)
+# Le pyproject.toml à la racine du cours regroupe tous les TP (pip install -e ".[tp2]").
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "scikit-learn>=1.4",
+  "scipy>=1.11",
+  "jupyterlab>=4.1",
+  "ipykernel>=6.29",
+  "tqdm>=4.66",
+  "torch>=2.2",
+  "torchvision>=0.17",
+  "keras>=3.0",
+  ]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

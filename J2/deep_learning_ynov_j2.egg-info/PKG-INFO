@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: deep-learning-ynov-j2
+Version: 2026.10
+Summary: Dépendances du TP2 (journée 2) du module Deep Learning, Ynov Bordeaux
+Requires-Python: <3.13,>=3.11
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: pandas>=2.1
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: scipy>=1.11
+Requires-Dist: jupyterlab>=4.1
+Requires-Dist: ipykernel>=6.29
+Requires-Dist: tqdm>=4.66
+Requires-Dist: torch>=2.2
+Requires-Dist: torchvision>=0.17
+Requires-Dist: keras>=3.0
